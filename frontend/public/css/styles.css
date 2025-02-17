@@ -1,0 +1,65 @@
+.bg-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bg-login .bg-image {
+    background-image: url('/images/signin.png');
+}
+
+.bg-register .bg-image {
+    background-image: url('/images/signup.png');
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.btn-custom {
+    background-color: #59413E;
+    border-color: #59413E;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #4b372f;
+    border-color: #4b372f;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.text-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+    z-index: 1000;
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+}
+
+.form-check-label {
+    font-size: 14px;
+    margin-left: 10px;
+}
