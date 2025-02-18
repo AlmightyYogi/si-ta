@@ -75,7 +75,7 @@
                     Login successful!
                 </div>
             `;
-            window.location.href = '/profile';
+            window.location.href = '/dashboard';
         } else {
             if (response.errors) {
                 if (response.errors.username) {
